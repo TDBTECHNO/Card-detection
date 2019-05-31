@@ -20,8 +20,10 @@ Now we have our data set, that means the base is ready now we bang the code.
 Training:
 
 Next thing or the most important thing we do is training our data. That is really cool. I have use the darkflow which is the tensorflow implementation of darknet YOLO. You need 4 steps to perform object detection in short. 
-Now we will follow the steps to install darkflow and start our training, first you have to go to the below link and clone the repo....
-$ git clone https://github.com/thtrieu/darkflow
+Now we will follow the steps to install darkflow and start our training, first you have to go to the below link and check it out
+https://github.com/thtrieu/darkflow
+
+*I have used yolo.weights file for better accuracy, if you have low computational, i would suggest to use tiny-yolo-v2*
 
 1)Install prerequisite libraries
 *Tensorflow(pip install tensorflow-gpu) *Atleast 1.0 version*
