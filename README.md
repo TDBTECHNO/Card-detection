@@ -71,7 +71,9 @@ Testing:
 The weights has been saved at ckpt folder which is inside darkflow. Make sure to use all the three file i.e data0001, index,meta.(you will get to know once check point is start saving).
 To test a demo on video, save a video on a darkflow folder and type:
  flow --model cfg/yolo-new.cfg --load (checkpoint number or -1) --demo videofile.avi --gpu 0.7.
- ***for images
+ ***for images***
+ 
+ 
  flow --imgdir sample_img/ --model cfg/yourcfg --load (-1 or checkpoint number)
 
 To save a video with predicted bounding box, add --saveVideo option.
